@@ -30,11 +30,10 @@ A complete interactive **user management system** written in **Bash**, designed 
 ## 📁 File Structure
 
 ManagementSystem/
-├── menu # Main script with interactive menu
-├── user1 # Script with functions 1–5
-├── user2 # Script with functions 6–9
-├── README.md # Project documentation
-
+├── menu       # Main script with interactive menu
+├── user1      # Script with functions 1–5
+├── user2      # Script with functions 6–9
+├── README.md  # Project documentation
 
 ---
 
@@ -55,15 +54,18 @@ chmod +x menu user1 user2
 ./menu
 
 🧪 Example Use Cases
-Feature	Description
-Show system info	==> Displays system stats for quick diagnostics
-List bash users	==> See which users have a login shell
-Search user ==> Quickly check if a user exists
-Add user ==> Add a new user with sudo and setup
-Delete user ==>	Remove a user and backup home directory
-User details ==>	View UID, GID, groups, shell, etc.
-Change password	==> Prompt and securely reset password
-Lock/Unlock	==> Temporarily disable or enable a user account
+| Feature           | Description                                          |
+| ----------------- | ---------------------------------------------------- |
+| Show System Info  | Displays system stats (hostname, uptime, disk, etc.) |
+| List Bash Users   | Lists users with `/bin/bash` shell                   |
+| Search User       | Check if a user exists                               |
+| Add User          | Adds a new user with sudo and validation             |
+| Delete User       | Deletes a user with a home directory backup          |
+| Show User Details | Shows UID, GID, groups, home, and shell info         |
+| Change Password   | Securely resets a user password                      |
+| Lock/Unlock User  | Enables or disables account access                   |
+| Exit Program      | Safely exits the script                              |
+
 
 👥 Contributors
 
@@ -73,7 +75,8 @@ Lock/Unlock	==> Temporarily disable or enable a user account
 📸 Screenshots / Demo
 
     Running the menu
-    
+    ![Screenshot_From_2025-05-07_18-57-08](https://github.com/user-attachments/assets/1606b6f6-fc68-413b-b4c4-4c93353dd759)
+
 
     Show system Information
    
