@@ -108,6 +108,8 @@ chmod +x menu user1 user2
     Exit the Program
   ![Screenshot_From_2025-05-07_19-06-37](https://github.com/user-attachments/assets/406022cd-1c2f-4332-9663-66ed6d92482f)
 
+    Walk through VIDEO
+https://drive.google.com/file/d/1YX9uifSsP-1SXKqDkEBFwwaFn6jw9pwA/view?usp=sharing
 
 ⚙️ Requirements
 
