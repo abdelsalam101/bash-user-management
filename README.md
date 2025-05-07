@@ -75,7 +75,8 @@ chmod +x menu user1 user2
 📸 Screenshots / Demo
 
     Running the menu
-    ![Screenshot_From_2025-05-07_18-57-08](https://github.com/user-attachments/assets/1606b6f6-fc68-413b-b4c4-4c93353dd759)
+  ![Screenshot_From_2025-05-07_18-57-08](https://github.com/user-attachments/assets/e3be8a0c-dcaf-4ff6-979b-42837341b4aa)
+
 
 
     Show system Information
