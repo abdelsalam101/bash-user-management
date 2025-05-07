@@ -1,0 +1,48 @@
+#!/bin/bash
+# This script to show the details of the user
+user_detail(){
+read -p "Enter User name: " user
+if id "$user" &>/dev/null; then
+        home=$(eval echo "~$user")
+        shell=$(grep "^$user:" /etc/passwd | cut -d: -f7)
+        echo "The User Details:"
+        echo "User name is:       $user"
+        echo "User ID (UID) is:   $(id -u $user)"
+        echo "Group ID (GID) is : $(id -g $user)"
+        echo "Groups :            $(id -Gn $user)"
+        echo "Home Dir is:        $home"
+        echo "Shell is:           $shell"
+else
+        echo "There is no user called: $user"
+fi
+}
+
+change_password(){
+read -p "Enter user name you want to change his/her password: " user
+if id "$user" &>/dev/null; then
+        sudo passwd $user
+        echo "The password changed successfully"
+else
+        echo "There is no user called: $user"
+fi
+}
+
+lock_user(){
+read -p "Enter user name you want to lock: " user
+if id $user &>/dev/null ; then
+       sudo usermod -L $user
+       echo "The user: $user has been locked"
+else
+        echo "There is no user called: $user"
+fi
+}
+
+unlock_user(){
+read -p "Enter the user name you want to unlock: " user
+if id $user &>/dev/null ; then
+        sudo usermod -U $user
+        echo "The user: $user has been unlocked"
+else
+        echo "There is no user called: $user"
+fi
+}

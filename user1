@@ -1,0 +1,64 @@
+#!/bin/bash
+
+# function 1: Show System info
+show_info(){
+	echo "System Information:"
+	echo "Hostname: $(hostname)"
+	echo "Uptime: $(uptime -p)"
+	echo "Kernel version: $(uname -r)"
+	echo "Disk Usage:"
+	df -h | grep '^/dev'
+}
+
+# function 2: Listing users with bin/bash
+list_users(){
+	echo "Users with bin/bash shell:"
+	grep '/bin/bash' /etc/passwd | cut -d: -f1
+}
+
+# function 3: Search for a User
+search_user(){
+	read -p "Enter USERNAME to search: " username
+	if id "$username" &>/dev/null
+	then
+		echo "User '$username' exists."
+	else
+		echo "User '$username' not found."
+	fi
+}
+ 
+# function 4: Add User
+add_user(){
+	read -p "Add a new USER: " username
+	if id "$username" &>/dev/null
+	then
+		echo "User '$username' already exists".
+	else
+		sudo adduser "$username" && echo "User '$username' added."
+	fi
+}
+
+
+# function 5: Delete user
+delete_user(){
+    read -p "Enter USERNAME to delete: " username
+    if id "$username" &>/dev/null
+    then
+        home_dir="/home/$username"
+        backup_dir="/tmp/${username}_backup"
+
+        if [ -d "$home_dir" ]
+       	then
+            echo "Backing up home directory to $backup_dir..."
+            sudo cp -r "$home_dir" "$backup_dir"
+        else
+            echo "Home directory $home_dir not found. Skipping backup."
+        fi
+
+        sudo userdel -r "$username" && echo "User '$username' deleted (with backup if applicable)."
+    else
+        echo "User '$username' not found."
+    fi
+}
+
+
