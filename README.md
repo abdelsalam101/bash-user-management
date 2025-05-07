@@ -78,36 +78,36 @@ chmod +x menu user1 user2
   ![Screenshot_From_2025-05-07_18-57-08](https://github.com/user-attachments/assets/e3be8a0c-dcaf-4ff6-979b-42837341b4aa)
 
     Show system Information
-  ![Screenshot_From_2025-05-07_18-58-46](https://github.com/user-attachments/assets/589d7442-c6a0-4d3f-a280-fe59f769884e)
+   ![Screenshot_From_2025-05-07_19-07-57](https://github.com/user-attachments/assets/70d5db9f-5f98-4953-9c94-51001b7bd8fd)
       
     List users with /bin/bash shell
-  ![Screenshot_From_2025-05-07_18-59-06](https://github.com/user-attachments/assets/d3abe690-ab04-445f-91af-ed5889d7da8b)
+  ![Screenshot_From_2025-05-07_18-58-46](https://github.com/user-attachments/assets/589d7442-c6a0-4d3f-a280-fe59f769884e)
 
 
     Search for user
-    
+   ![Screenshot_From_2025-05-07_18-59-06](https://github.com/user-attachments/assets/d3abe690-ab04-445f-91af-ed5889d7da8b)
 
     Add User
-    
-
+   ![Screenshot_From_2025-05-07_19-00-19](https://github.com/user-attachments/assets/9e0cacc4-34e6-4b94-a22d-fd5618785af3)
+  
     Delete User (with home backup)
-    
+  ![Screenshot_From_2025-05-07_19-00-45](https://github.com/user-attachments/assets/74d9896d-a9cf-44f4-920c-9261db093344)
 
     Show User details
-    
+  ![Screenshot_From_2025-05-07_19-01-17](https://github.com/user-attachments/assets/9356744b-55c5-43c0-981a-d6a60c14362a)
 
-    Change User Pas
-sword
-    
+    Change User Password
+  ![Screenshot_From_2025-05-07_19-05-52](https://github.com/user-attachments/assets/0db8ee6a-260b-40e6-b58c-667ee5626ce5)
 
     Lock User
-    
+  ![Screenshot_From_2025-05-07_19-06-09](https://github.com/user-attachments/assets/362179fb-0f82-4390-82e4-98843db9bfb9)
 
     Unlock User
-    
+  ![Screenshot_From_2025-05-07_19-06-22](https://github.com/user-attachments/assets/deb89779-b058-426b-aac8-d011d0123663)
 
     Exit the Program
-    
+  ![Screenshot_From_2025-05-07_19-06-37](https://github.com/user-attachments/assets/406022cd-1c2f-4332-9663-66ed6d92482f)
+
 
 ⚙️ Requirements
 
