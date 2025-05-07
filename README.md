@@ -73,7 +73,7 @@ Lock/Unlock	==> Temporarily disable or enable a user account
 📸 Screenshots / Demo
 
     Running the menu
-    ![Screenshot From 2025-05-07 18-57-08](https://github.com/user-attachments/assets/c5e79c1f-8119-4595-9ffd-01ce2ee7f9ac)
+    [Screenshot From 2025-05-07 18-57-08](https://github.com/user-attachments/assets/c5e79c1f-8119-4595-9ffd-01ce2ee7f9ac)
 
     Show system Information
     ![Screenshot From 2025-05-07 19-07-57](https://github.com/user-attachments/assets/8eb4589a-8af8-40b3-a12a-a3f802c1e48a)
