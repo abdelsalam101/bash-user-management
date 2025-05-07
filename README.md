@@ -77,13 +77,12 @@ chmod +x menu user1 user2
     Running the menu
   ![Screenshot_From_2025-05-07_18-57-08](https://github.com/user-attachments/assets/e3be8a0c-dcaf-4ff6-979b-42837341b4aa)
 
-
-
     Show system Information
-   
+  ![Screenshot_From_2025-05-07_18-58-46](https://github.com/user-attachments/assets/589d7442-c6a0-4d3f-a280-fe59f769884e)
       
     List users with /bin/bash shell
-    
+  ![Screenshot_From_2025-05-07_18-59-06](https://github.com/user-attachments/assets/d3abe690-ab04-445f-91af-ed5889d7da8b)
+
 
     Search for user
     
@@ -97,7 +96,8 @@ chmod +x menu user1 user2
     Show User details
     
 
-    Change User Password
+    Change User Pas
+sword
     
 
     Lock User
